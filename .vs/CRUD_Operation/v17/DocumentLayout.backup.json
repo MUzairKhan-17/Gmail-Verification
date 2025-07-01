@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dot_net\\CRUD_Operation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|d:\\dot_net\\crud_operation\\crud_operation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|solutionrelative:crud_operation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|d:\\dot_net\\crud_operation\\crud_operation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|solutionrelative:crud_operation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|d:\\dot_net\\crud_operation\\crud_operation\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|solutionrelative:crud_operation\\views\\user\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|d:\\dot_net\\crud_operation\\crud_operation\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|solutionrelative:crud_operation\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|d:\\dot_net\\crud_operation\\crud_operation\\views\\user\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|solutionrelative:crud_operation\\views\\user\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|d:\\dot_net\\crud_operation\\crud_operation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D8E3299-D95C-42FC-B49D-5D0512062D3D}|CRUD_Operation\\CRUD_Operation.csproj|solutionrelative:crud_operation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD_Operation\\Program.cs",
+              "ToolTip": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Program.cs",
+              "RelativeToolTip": "CRUD_Operation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:29:37.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUD_Operation\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "CRUD_Operation\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAIIAAAAAnJmZmZkOwJUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T20:20:37.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerifyOtp.cshtml",
+              "DocumentMoniker": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Views\\User\\VerifyOtp.cshtml",
+              "RelativeDocumentMoniker": "CRUD_Operation\\Views\\User\\VerifyOtp.cshtml",
+              "ToolTip": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Views\\User\\VerifyOtp.cshtml",
+              "RelativeToolTip": "CRUD_Operation\\Views\\User\\VerifyOtp.cshtml",
+              "ViewState": "AgIAACYAAAAAZmZmZmYowGUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T19:35:34.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CRUD_Operation\\Models\\User.cs",
+              "ToolTip": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Models\\User.cs",
+              "RelativeToolTip": "CRUD_Operation\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAABgPRYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:28:33.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Views\\User\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "CRUD_Operation\\Views\\User\\SignUp.cshtml",
+              "ToolTip": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Views\\User\\SignUp.cshtml",
+              "RelativeToolTip": "CRUD_Operation\\Views\\User\\SignUp.cshtml",
+              "ViewState": "AgIAAH0AAAAAmJmZmZkNwMYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T19:15:25.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CRUD_Operation\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Dot_net\\CRUD_Operation\\CRUD_Operation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CRUD_Operation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAGMAAAAANDMzMzMFwG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T19:06:59.528Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

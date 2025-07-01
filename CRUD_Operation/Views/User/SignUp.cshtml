@@ -1,0 +1,225 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyTealSite</title>
+    <style>
+        /* Your existing styles remain unchanged */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #001f1f, #00b3b3);
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            background: rgba(0, 128, 128, 0.2);
+            border-bottom: 1px solid rgba(0, 255, 255, 0.3);
+            box-shadow: 0 8px 24px rgba(0, 255, 255, 0.15);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #00ffee;
+            text-shadow: 0 0 8px #00ffee, 0 0 16px #00ffee;
+        }
+
+        nav {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+            nav a {
+                text-decoration: none;
+                color: white;
+                font-size: 1rem;
+                position: relative;
+                transition: color 0.3s ease;
+            }
+
+                nav a::after {
+                    content: '';
+                    position: absolute;
+                    width: 0%;
+                    height: 2px;
+                    background: #00ffee;
+                    bottom: -4px;
+                    left: 0;
+                    transition: 0.3s;
+                }
+
+                nav a:hover {
+                    color: #00ffee;
+                }
+
+                    nav a:hover::after {
+                        width: 100%;
+                    }
+
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+            .menu-toggle span {
+                height: 3px;
+                width: 25px;
+                background: #00ffee;
+                margin: 4px 0;
+                border-radius: 2px;
+            }
+
+        @@media (max-width: 768px) {
+            nav {
+                position: absolute;
+                top: 70px;
+                right: 0;
+                background: rgba(0, 128, 128, 0.4);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border-radius: 0 0 0 12px;
+                box-shadow: -4px 8px 24px rgba(0, 255, 255, 0.2);
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 1rem;
+                display: none;
+            }
+
+                nav.show {
+                    display: flex;
+                }
+
+            .menu-toggle {
+                display: flex;
+            }
+        }
+
+        p{
+            color:red;
+            font-weight: bold;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 5rem;
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #00ffee;
+            text-shadow: 0 0 10px #00ffee, 0 0 20px #00ffee;
+            margin-bottom: 2rem;
+        }
+
+        .form-container {
+            max-width: 400px;
+            margin: auto;
+            background: rgba(0, 128, 128, 0.25);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 16px;
+        }
+
+            .form-container input {
+                width: 100%;
+                padding: 0.8rem;
+                margin: 0.6rem 0;
+                border: none;
+                border-radius: 8px;
+                background: rgba(255, 255, 255, 0.1);
+                color: #fff;
+                font-size: 1rem;
+            }
+
+                .form-container input::placeholder {
+                    color: #aefcfb;
+                }
+
+            .form-container button {
+                width: 100%;
+                padding: 0.8rem;
+                border: none;
+                border-radius: 8px;
+                background: #00ffee;
+                color: #001f1f;
+                font-size: 1rem;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background 0.3s ease;
+                margin-top: 1rem;
+            }
+
+                .form-container button:hover {
+                    background: #00d4c6;
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">TealNav</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="nav">
+                <a href="@Url.Action("Index", "User")">Home</a>
+                <a href="@Url.Action("SignUp", "User")">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Welcome to My Teal World From Sign Up</h1>
+
+        <div class="form-container">
+            <form method="post">
+                <input type="text" name="txtname" placeholder="Full Name" required />
+                <input type="email" name="txtmail" placeholder="Email" required />
+                <p>@ViewBag.EmailRegistered</p>
+                <input type="password" name="txtpwd" placeholder="Password" required />
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
